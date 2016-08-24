@@ -1,0 +1,106 @@
+/*Week 1 Entry*/
+
+.day-one {
+  background: red;
+  width: 100%;
+  height: 100vh;
+}
+
+.date {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 10vw;
+  color: white;
+  font-size: .90em;
+}
+
+.one-footer {
+  text-align: center;
+  padding-top: 8vh;
+}
+
+/*Week 1 Content*/
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.fire-block-1 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+}
+
+.unna-top {
+  font-family: 'Unna', serif;
+  margin-bottom: .5em;
+  font-size: 1.75em;
+}
+
+.lines {
+  border-top: 2px solid white;
+  width: 16vw;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.fire-block-2 {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lines-FD {
+  border-top: 2px solid white;
+  width: 47vw;
+  align-items: center;
+
+}
+
+.lato-FD {
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+  text-align: center;
+  align-items: center;
+
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.unna-water {
+  font-family: 'Unna', serif;
+  font-size: 1.75em;
+  margin-right: 10vw;
+}
+
+.water-container {
+  display: flex;
+}
+
+.water {
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+}
+
+.w {
+  display: flex;
+
+}
