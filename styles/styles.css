@@ -1,112 +1,8 @@
-@import url(reset.css);
-/*Week 1 Entry*/
-.day-one {
-  background: red;
-  width: 100%;
-  height: 100vh; }
+/* Main page */
 
-.date {
-  margin: auto;
-  margin-bottom: 20px;
-  text-align: center;
-  border-bottom: 2px solid white;
-  width: 10vw;
-  color: white;
-  font-size: .90em; }
-
-.one-footer {
-  text-align: center;
-  padding-top: 8vh; }
-
-/*Week 1 Content*/
-.container {
-  display: flex;
-  align-items: center;
-  margin-top: 6em; }
-
-.fire-block-1 {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10vw; }
-
-.unna-top {
-  font-family: 'Unna', serif;
-  margin-bottom: .5em;
-  font-size: 1.75em; }
-
-.lines {
-  border-top: 2px solid white;
-  width: 16vw; }
-
-.lato {
-  font-family: 'Lato', sans-serif;
-  font-size: 10vh;
-  text-align: center; }
-
-.fire-block-2 {
-  display: inline-flex;
-  flex-direction: column;
-  padding-left: 10vw;
-  justify-content: center;
-  align-items: center; }
-
-.lines-FD {
-  border-top: 2px solid white;
-  width: 47vw;
-  align-items: center; }
-
-.lato-FD {
-  font-family: 'Lato', sans-serif;
-  font-size: 10vh;
-  text-align: center;
-  align-items: center; }
-
-.bottom-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5em; }
-
-.unna-water {
-  font-family: 'Unna', serif;
-  font-size: 1.75em;
-  margin-right: 10vw; }
-
-.water-container {
-  display: flex; }
-
-.water {
-  font-family: 'Lato', sans-serif;
-  font-size: 10vh; }
-
-.w {
-  display: flex; }
-
-/*Week 2 Entry*/
-.day-two {
-  background: blue;
-  width: 100%;
-  height: 100vh; }
-
-.date {
-  margin: auto;
-  margin-bottom: 20px;
-  text-align: center;
-  border-bottom: 2px solid white;
-  width: 10vw;
-  color: white;
-  font-size: .90em; }
-
-.two-footer {
-  text-align: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh; }
-
-/*Week 2 Content*/
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+}
 
 header {
   display: inline-block;
@@ -115,7 +11,8 @@ header {
   height: 10vh;
   width: 100%;
   position: fixed;
-  top: 0; }
+  top: 0;
+}
 
 header h1 {
   display: inline-block;
@@ -123,7 +20,8 @@ header h1 {
   font-weight: 100;
   width: 31vw;
   color: white;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 header img {
   display: inline-block;
@@ -131,6 +29,111 @@ header img {
   margin-top: 20px;
   margin-right: 10px;
   height: 25px;
-  width: 25px; }
+  width: 25px;
+}
 
-/*# sourceMappingURL=styles.css.map */
+/*Week 1 Entry*/
+.day-one {
+  background: red;
+  height: 100vh;
+  width: 100%;
+}
+
+.date {
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: .90em;
+  margin-left: 2vw;
+  /*margin-bottom: 20px;*/
+  padding-top: 15vh;
+  text-align: center;
+  width: 15vw;
+}
+
+.one-footer {
+  padding-top: 8vh;
+  text-align: center;
+}
+
+/*Week 1 Content*/
+.container {
+  align-items: center;
+  display: flex;
+  margin-top: 2em;
+}
+
+.fire-block-1 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+.unna-top {
+  font-family: 'Unna', serif;
+  font-size: 1.75em;
+  margin-bottom: .5em;
+}
+
+.lines {
+  border-top: 2px solid white;
+  width: 16vw;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.fire-block-2 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+}
+
+.lines-FD {
+  align-items: center;
+  border-top: 2px solid white;
+  width: 47vw;
+}
+
+.lato-FD {
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.bottom-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top:2em;
+}
+
+.unna-water {
+  font-family: 'Unna', serif;
+  font-size: 1.75em;
+  margin-right: 4vw;
+}
+
+.water-container {
+  display: flex;
+  position: relative;
+}
+
+.water {
+  font-family: 'Lato', sans-serif;
+  font-size: 10vh;
+  color: blue;
+}
+
+.w {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
