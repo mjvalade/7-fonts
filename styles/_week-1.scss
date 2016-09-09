@@ -1,0 +1,115 @@
+/*Week 1 Entry*/
+.day-one {
+  background: $bkgd-color-one;
+  height: 100vh;
+  width: 100%;
+}
+
+.date-one {
+  border-bottom: 2px solid $color-main-light;
+  color: $color-main-light;
+  font-family: $main-font;
+  font-size: .90em;
+  margin-left: 2vw;
+  /*margin-bottom: 20px;*/
+  padding-top: 15vh;
+  text-align: center;
+  width: 15vw;
+}
+
+.one-footer {
+  padding-top: 8vh;
+  text-align: center;
+}
+
+.one-footer a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: $color-main-dark;
+}
+
+.one-footer a:hover {
+  font-weight: 600;
+}
+
+/*Week 1 Content*/
+.container {
+  align-items: center;
+  display: flex;
+  margin-top: 2em;
+}
+
+.fire-block-1 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+.unna-top {
+  font-family: $font-one-Unna;
+  font-size: 1.75em;
+  margin-bottom: .5em;
+}
+
+.lines {
+  border-top: 2px solid $color-main-light;
+  width: 16vw;
+}
+
+.lato {
+  font-family: $font-one-Lato;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.fire-block-2 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
+}
+
+.lines-FD {
+  align-items: center;
+  border-top: 2px solid $color-main-light;
+  width: 47vw;
+}
+
+.lato-FD {
+  align-items: center;
+  font-family: $font-one-Lato;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.bottom-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top:2em;
+}
+
+.unna-water {
+  font-family: $font-one-Unna;
+  font-size: 1.75em;
+  margin-right: 4vw;
+}
+
+.water-container {
+  display: flex;
+  position: relative;
+}
+
+.water {
+  font-family: $font-one-Lato;
+  font-size: 10vh;
+  color: $highlight-color-one;
+}
+
+.w {
+  display: flex;
+  position: relative;
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+/* Week 2 Entry */
+.day-two {
+  background: $color-main-light;
+  height: 100vh;
+}
+
+.date-two {
+  font-family: $main-font;
+  /*margin-bottom: 20px;*/
+  border-bottom: 2px solid $color-main-dark;
+  color: $color-main-dark;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%;
+}
+
+.two-footer {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.two-footer a:hover {
+  font-weight: 600;
+}
+
+/*Week 2 Content*/
+.two-header {
+  font-family: $font-two-OS;
+  font-size: 2em;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.zebra-container {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.zebra-1 {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: $font-two-Volk;
+  font-size: 3em;
+  margin: 25% 50% 0 0;
+  transform-origin: left top 0;
+  transform: rotate(-90deg);
+}
+
+#space {
+  margin-top: 30%;
+}
+
+/*.zebra-2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 3em;
+  transform: rotate(-90deg);*/
+  /*transform-origin: left top 0;*/
+  /*align-self: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;*/
+  /*top: 300px;*/
+  /*float: left;
+  left: 50%;
+  }*/
+
+.stripes {
+  border-top: 20px solid $color-main-dark;
+}
+
+.stripes.blank {
+  border-top: 20px solid $color-main-dark;
+  color: $color-main-light;
+}
+
+.stripes.end {
+  border-top: 20px solid $color-main-dark;
+  border-bottom: 20px solid $color-main-dark;
+}

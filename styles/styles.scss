@@ -1,0 +1,273 @@
+@import '_reset';
+@import '_variables';
+@import '_main-template';
+@import '_week-1';
+@import '_week-2';
+@import '_week-3';
+
+// /* Main page */
+// body {
+//   font-family: 'Roboto', sans-serif;
+//   /*color: yellow;*/
+// }
+//
+// header {
+//   /*font-family: 'Roboto', sans-serif;*/
+//   background: #0C273D;
+//   display: inline-block;
+//   height: 10vh;
+//   position: fixed;
+//   text-align: center;
+//   top: 0;
+//   width: 100%;
+// }
+//
+// header h1 {
+//   color: white;
+//   display: inline-block;
+//   font-size: 125%;
+//   font-weight: 100;
+//   margin-top: 20px;
+//   width: 60%;
+// }
+//
+// header img {
+//   display: inline-block;
+//   float: right;
+//   height: 25px;
+//   margin-right: 10px;
+//   margin-top: 20px;
+//   width: 25px;
+// }
+
+// /* Week 3 Entry */
+// .day-three {
+//   background: blanchedalmond;
+//   height: 100vh;
+// }
+//
+// .date-three {
+//   /*font-family: 'Roboto', sans-serif;*/
+//   /*margin-bottom: 20px;*/
+//   border-bottom: 2px solid black;
+//   color: black;
+//   font-size: .90em;
+//   margin-left: 2vw;
+//   padding-top: 15vh;
+//   text-align: center;
+//   width: 20%;
+// }
+//
+// .three-footer {
+//   margin-top: 160px;
+//   text-align: center;
+// }
+//
+// /*Week 3 Content*/
+// /*font-family: 'Noto Sans', sans-serif;*/
+//
+// .moderation {
+//   font-family: 'Arvo', serif;
+//
+// }
+//
+// .block-2 {
+//   display: flex;
+//   flex-direction: row;
+// }
+
+
+// /* Week 2 Entry */
+// .day-two {
+//   background: white;
+//   height: 100vh;
+// }
+//
+// .date-two {
+//   /*font-family: 'Roboto', sans-serif;*/
+//   /*margin-bottom: 20px;*/
+//   border-bottom: 2px solid black;
+//   color: black;
+//   font-size: .90em;
+//   margin-left: 2vw;
+//   padding-top: 15vh;
+//   text-align: center;
+//   width: 20%;
+// }
+//
+// .two-footer {
+//   margin-top: 160px;
+//   text-align: center;
+// }
+//
+// /*Week 2 Content*/
+// /*font-family: 'Vollkorn', serif;*/
+// /*font-family: 'Open Sans', sans-serif;*/
+// .two-header {
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 2em;
+//   margin-left: 20px;
+//   margin-top: 20px;
+// }
+//
+// .zebra-container {
+//   display: flex;
+//   flex-direction: row;
+//   height: 40vh;
+//   justify-content: center;
+//   width: 100%;
+// }
+//
+// .zebra-1 {
+//   display: inline-flex;
+//   flex-direction: column;
+//   font-family: 'Vollkorn', serif;
+//   font-size: 3em;
+//   margin: 25% 50% 0 0;
+//   transform-origin: left top 0;
+//   transform: rotate(-90deg);
+// }
+//
+// #space {
+//   margin-top: 30%;
+// }
+//
+// /*.zebra-2 {
+//   font-family: 'Vollkorn', serif;
+//   font-size: 3em;
+//   transform: rotate(-90deg);*/
+//   /*transform-origin: left top 0;*/
+//   /*align-self: flex-end;
+//   display: inline-flex;
+//   flex-direction: column;
+//   position: relative;*/
+//   /*top: 300px;*/
+//   /*float: left;
+//   left: 50%;
+//   }*/
+//
+// .stripes {
+//   border-top: 20px solid black;
+// }
+//
+// .stripes.blank {
+//   border-top: 20px solid black;
+//   color: white;
+// }
+//
+// .stripes.end {
+//   border-top: 20px solid black;
+//   border-bottom: 20px solid black;
+// }
+
+// /*Week 1 Entry*/
+// .day-one {
+//   background: red;
+//   height: 100vh;
+//   width: 100%;
+// }
+//
+// .date-one {
+//   border-bottom: 2px solid white;
+//   color: white;
+//   font-family: 'Roboto', sans-serif;
+//   font-size: .90em;
+//   margin-left: 2vw;
+//   /*margin-bottom: 20px;*/
+//   padding-top: 15vh;
+//   text-align: center;
+//   width: 15vw;
+// }
+//
+// .one-footer {
+//   padding-top: 8vh;
+//   text-align: center;
+// }
+//
+// .one-footer a:hover, a:visited, a:link, a:active {
+//   text-decoration: none;
+//   color: black;
+// }
+//
+// /*Week 1 Content*/
+// .container {
+//   align-items: center;
+//   display: flex;
+//   margin-top: 2em;
+// }
+//
+// .fire-block-1 {
+//   align-items: center;
+//   display: inline-flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   margin-left: 10vw;
+// }
+//
+// .unna-top {
+//   font-family: 'Unna', serif;
+//   font-size: 1.75em;
+//   margin-bottom: .5em;
+// }
+//
+// .lines {
+//   border-top: 2px solid white;
+//   width: 16vw;
+// }
+//
+// .lato {
+//   font-family: 'Lato', sans-serif;
+//   font-size: 10vh;
+//   text-align: center;
+// }
+//
+// .fire-block-2 {
+//   align-items: center;
+//   display: inline-flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   padding-left: 10vw;
+// }
+//
+// .lines-FD {
+//   align-items: center;
+//   border-top: 2px solid white;
+//   width: 47vw;
+// }
+//
+// .lato-FD {
+//   align-items: center;
+//   font-family: 'Lato', sans-serif;
+//   font-size: 10vh;
+//   text-align: center;
+// }
+//
+// .bottom-container {
+//   align-items: center;
+//   display: flex;
+//   justify-content: center;
+//   margin-top:2em;
+// }
+//
+// .unna-water {
+//   font-family: 'Unna', serif;
+//   font-size: 1.75em;
+//   margin-right: 4vw;
+// }
+//
+// .water-container {
+//   display: flex;
+//   position: relative;
+// }
+//
+// .water {
+//   font-family: 'Lato', sans-serif;
+//   font-size: 10vh;
+//   color: blue;
+// }
+//
+// .w {
+//   display: flex;
+//   position: relative;
+//   text-align: center;
+// }

@@ -1,0 +1,56 @@
+/* Week 3 Entry */
+.day-three {
+  background: blanchedalmond;
+  height: 100vh;
+}
+
+.date-three {
+  font-family: $main-font;
+  margin-bottom: 20px;
+  border-bottom: 2px solid $color-main-dark;
+  color: $color-main-dark;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%;
+}
+
+.three-footer {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.three-footer a:hover {
+  font-weight: 600;
+}
+
+/*Week 3 Content*/
+
+// TODO: check out https://github.com/chrissam42/font-to-width
+
+.three-main {
+  font-family: $font-three-Noto;
+  font-size: 6vw;
+  text-align: center;
+  color: orangered;
+}
+
+// .top {
+//   font-size: 10vw;
+//
+// }
+
+.moderation {
+  font-family: $font-three-Arvo;
+  font-size: 10vw;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.three-small {
+  font-family: $font-three-Noto;
+  font-size: 2em;
+  text-align: center;
+  margin-top: -7px;
+}
