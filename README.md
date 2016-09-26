@@ -9,3 +9,6 @@
 
 ## Week 3.
 “Everything in moderation, including moderation.” ― Oscar Wilde
+
+## Week 4.
+“I love deadlines. I like the whooshing sound they make as they fly by.” ― Douglas Adams

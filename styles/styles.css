@@ -75,6 +75,191 @@ header img {
   margin-top: 20px;
   width: 25px; }
 
+/* Week 4 Entry */
+.day-four {
+  background: black;
+  height: 100vh; }
+
+.date-four {
+  font-family: "Roboto", sans-serif;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%; }
+
+.four-footer {
+  margin-top: 50vh;
+  text-align: center;
+  color: white; }
+
+.four-footer a {
+  color: white !important; }
+  .four-footer a:hover {
+    font-weight: 600; }
+
+/*Week 4 Content*/
+.deadlines--container {
+  width: 90%;
+  margin: auto; }
+
+.deadlines {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 5vw;
+  display: inline-block; }
+
+.deadlines--main {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 10vw;
+  display: inline-block; }
+
+.container--2 {
+  margin-top: 2em;
+  display: block; }
+
+.container--3 {
+  margin-top: 2em;
+  display: block; }
+
+.four--flyby {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: 10vw;
+  margin-left: auto;
+  font-style: italic; }
+
+.skew {
+  display: inline-block;
+  float: right;
+  height: 140px;
+  text-align: right;
+  transform: skew(5deg);
+  animation: shake 1.5s infinite;
+  animation-direction: alternate; }
+
+@keyframes shake {
+  0% {
+    transform: skewX(5deg); }
+  100% {
+    transform: skewX(-5deg); } }
+/* Week 3 Entry */
+.day-three {
+  background: blanchedalmond;
+  height: 100vh; }
+
+.date-three {
+  font-family: "Roboto", sans-serif;
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%; }
+
+.three-footer {
+  margin-top: 8px;
+  text-align: center; }
+
+.three-footer a:hover {
+  font-weight: 600; }
+
+/*Week 3 Content*/
+.three-main {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 6vw;
+  text-align: center;
+  color: orangered; }
+
+.moderation {
+  font-family: "Arvo", serif;
+  font-size: 10vw;
+  text-align: center;
+  letter-spacing: 10px; }
+
+.three-small {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin-top: -7px; }
+
+/* Week 2 Entry */
+.day-two {
+  background: white;
+  height: 100vh; }
+
+.date-two {
+  font-family: "Roboto", sans-serif;
+  /*margin-bottom: 20px;*/
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%; }
+
+.two-footer {
+  margin-top: 160px;
+  text-align: center; }
+
+.two-footer a:hover {
+  font-weight: 600; }
+
+/*Week 2 Content*/
+.two-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.zebra-container {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  justify-content: center;
+  width: 100%; }
+
+.zebra-1 {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: "Vollkorn", serif;
+  font-size: 3em;
+  margin: 25% 50% 0 0;
+  transform-origin: left top 0;
+  transform: rotate(-90deg); }
+
+#space {
+  margin-top: 30%; }
+
+/*.zebra-2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 3em;
+  transform: rotate(-90deg);*/
+/*transform-origin: left top 0;*/
+/*align-self: flex-end;
+display: inline-flex;
+flex-direction: column;
+position: relative;*/
+/*top: 300px;*/
+/*float: left;
+left: 50%;
+}*/
+.stripes {
+  border-top: 20px solid black; }
+
+.stripes.blank {
+  border-top: 20px solid black;
+  color: white; }
+
+.stripes.end {
+  border-top: 20px solid black;
+  border-bottom: 20px solid black; }
+
 /*Week 1 Entry*/
 .day-one {
   background: red;
@@ -172,119 +357,5 @@ header img {
   display: flex;
   position: relative;
   text-align: center; }
-
-/* Week 2 Entry */
-.day-two {
-  background: white;
-  height: 100vh; }
-
-.date-two {
-  font-family: "Roboto", sans-serif;
-  /*margin-bottom: 20px;*/
-  border-bottom: 2px solid black;
-  color: black;
-  font-size: .90em;
-  margin-left: 2vw;
-  padding-top: 15vh;
-  text-align: center;
-  width: 20%; }
-
-.two-footer {
-  margin-top: 160px;
-  text-align: center; }
-
-.two-footer a:hover {
-  font-weight: 600; }
-
-/*Week 2 Content*/
-.two-header {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-  margin-left: 20px;
-  margin-top: 20px; }
-
-.zebra-container {
-  display: flex;
-  flex-direction: row;
-  height: 40vh;
-  justify-content: center;
-  width: 100%; }
-
-.zebra-1 {
-  display: inline-flex;
-  flex-direction: column;
-  font-family: "Vollkorn", serif;
-  font-size: 3em;
-  margin: 25% 50% 0 0;
-  transform-origin: left top 0;
-  transform: rotate(-90deg); }
-
-#space {
-  margin-top: 30%; }
-
-/*.zebra-2 {
-  font-family: 'Vollkorn', serif;
-  font-size: 3em;
-  transform: rotate(-90deg);*/
-/*transform-origin: left top 0;*/
-/*align-self: flex-end;
-display: inline-flex;
-flex-direction: column;
-position: relative;*/
-/*top: 300px;*/
-/*float: left;
-left: 50%;
-}*/
-.stripes {
-  border-top: 20px solid black; }
-
-.stripes.blank {
-  border-top: 20px solid black;
-  color: white; }
-
-.stripes.end {
-  border-top: 20px solid black;
-  border-bottom: 20px solid black; }
-
-/* Week 3 Entry */
-.day-three {
-  background: blanchedalmond;
-  height: 100vh; }
-
-.date-three {
-  font-family: "Roboto", sans-serif;
-  border-bottom: 2px solid black;
-  color: black;
-  font-size: .90em;
-  margin-left: 2vw;
-  padding-top: 15vh;
-  text-align: center;
-  width: 20%; }
-
-.three-footer {
-  margin-top: 8px;
-  text-align: center; }
-
-.three-footer a:hover {
-  font-weight: 600; }
-
-/*Week 3 Content*/
-.three-main {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 6vw;
-  text-align: center;
-  color: orangered; }
-
-.moderation {
-  font-family: "Arvo", serif;
-  font-size: 10vw;
-  text-align: center;
-  letter-spacing: 10px; }
-
-.three-small {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2em;
-  text-align: center;
-  margin-top: -7px; }
 
 /*# sourceMappingURL=styles.css.map */

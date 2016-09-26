@@ -1,0 +1,92 @@
+/* Week 4 Entry */
+
+.day-four {
+  background: $color-main-dark;
+  height: 100vh;
+}
+
+.date-four {
+  font-family: $main-font;
+  // margin-bottom: 20px;
+  border-bottom: 2px solid $color-main-light;
+  color: $color-main-light;
+  font-size: .90em;
+  margin-left: 2vw;
+  padding-top: 15vh;
+  text-align: center;
+  width: 20%;
+}
+
+.four-footer {
+  margin-top: 50vh;
+  text-align: center;
+  color: $color-main-light;
+
+}
+
+.four-footer a {
+  color: $color-main-light !important;
+  &:hover {
+    font-weight: 600;
+  }
+}
+
+/*Week 4 Content*/
+
+.deadlines--container {
+  width: 90%;
+  margin: auto;
+}
+.deadlines {
+  color: $color-main-light;
+  font-family: $font-four-OS;
+  font-size: 5vw;
+  display: inline-block;
+}
+
+.deadlines--main {
+  color: $color-main-light;
+  font-family: $font-four-Fat;
+  font-size: 10vw;
+  display: inline-block;
+}
+
+.container--2 {
+  margin-top: 2em;
+  display: block;
+}
+
+.container--3 {
+  margin-top: 2em;
+  display: block;
+}
+
+.four--flyby {
+  color: $color-main-light;
+  font-family: $font-four-Fat;
+  font-size: 10vw;
+  margin-left: auto;
+  font-style: italic;
+}
+
+.skew {
+  display: inline-block;
+  float: right;
+  height: 140px;
+  // width: 90vw;
+  text-align: right;
+  transform: skew(5deg);
+  animation: shake 1.5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(5deg);
+  }
+  100% {
+    transform: skewX(-5deg);
+  }
+}
+
+// TODO: check out https://github.com/chrissam42/font-to-width
