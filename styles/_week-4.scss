@@ -13,31 +13,42 @@
   font-size: .90em;
   margin-left: 2vw;
   padding-top: 15vh;
+  padding-bottom: 5px;
   text-align: center;
   width: 20%;
 }
 
 .four-footer {
-  margin-top: 50vh;
+  margin-top: 30vh;
   text-align: center;
   color: $color-main-light;
+  @media screen and (min-width: 500px) {
+    margin-top: 20vh;
+    margin-right: 40vw;
+  }
+  @media screen and (min-width: 1000px) {
+    margin-top: 12vh;
+  }
 
-}
-
-.four-footer a {
-  color: $color-main-light !important;
-  &:hover {
-    font-weight: 600;
+  .footer-link {
+    color: $color-main-light !important;
+    &:hover {
+      font-weight: 600;
+    }
   }
 }
+
 
 /*Week 4 Content*/
 
 .deadlines--container {
   width: 90%;
   margin: auto;
+  padding-top: 10px;
 }
-.deadlines {
+
+.deadlines,
+.deadlines--bottom {
   color: $color-main-light;
   font-family: $font-four-OS;
   font-size: 5vw;
@@ -49,6 +60,7 @@
   font-family: $font-four-Fat;
   font-size: 10vw;
   display: inline-block;
+  padding-left: 20px;
 }
 
 .container--2 {
@@ -61,19 +73,39 @@
   display: block;
 }
 
-.four--flyby {
+.deadlines--bottom {
+  margin-top: 1em;
+}
+
+.flyby--top {
   color: $color-main-light;
   font-family: $font-four-Fat;
-  font-size: 10vw;
-  margin-left: auto;
+  font-size: 13vw;
   font-style: italic;
+  @media screen and (min-width: 700px) {
+    font-size: 10vw;
+  }
+  @media screen and (min-width: 1000px) {
+    font-size: 8vw;
+  }
+}
+
+.flyby--bottom {
+  color: $color-main-light;
+  font-family: $font-four-Fat;
+  font-size: 20vw;
+  font-style: italic;
+  @media screen and (min-width: 700px) {
+    font-size: 15vw;
+  }
+
 }
 
 .skew {
   display: inline-block;
   float: right;
   height: 140px;
-  // width: 90vw;
+  margin-right: 10vw;
   text-align: right;
   transform: skew(5deg);
   animation: shake 1.5s infinite;
@@ -87,6 +119,26 @@
   100% {
     transform: skewX(-5deg);
   }
+}
+
+.skew--bottom {
+  display: inline-block;
+  float: right;
+  height: 140px;
+  margin-right: 10vw;
+  text-align: right;
+  transform: skew(5deg);
+  animation: shake 1.5s infinite;
+  animation-direction: alternate;
+  @media screen and (min-width: 700px) {
+    display: flex;
+    margin-top: 25px;
+  }
+  @media screen and (min-width: 900px) {
+    margin-right: 1px;
+    margin-top: 65px;
+  }
+
 }
 
 // TODO: check out https://github.com/chrissam42/font-to-width

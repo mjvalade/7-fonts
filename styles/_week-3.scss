@@ -30,16 +30,25 @@
 
 // TODO: check out https://github.com/chrissam42/font-to-width
 
+.three--container {
+  margin-top: 2em;
+}
+
 .three-main {
   font-family: $font-three-Noto;
   font-size: 6vw;
   text-align: center;
   color: orangered;
+  @media screen and (min-width: 1100px) {
+    font-size: 4vw;
+  }
 }
 
 .moderation {
   font-family: $font-three-Arvo;
   font-size: 10vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   text-align: center;
   letter-spacing: 10px;
 }
